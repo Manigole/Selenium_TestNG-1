@@ -1,6 +1,4 @@
-package com.spiv.fwa.suite.infmt;
 
-import com.spiv.fwa.util.Utils;
 import jdk.jfr.Timespan;
 import org.junit.Assert;
 import org.openqa.selenium.By;
@@ -16,9 +14,6 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import static com.spiv.fwa.suite.cmdr.CommanderSelectors.PROJECT_DIRECTORY_SELECT_FILTER_DROPDOWN;
-import static com.spiv.fwa.suite.cmdr.CommanderSelectors.PROJECT_STATUS_CONFIRM_MODAL_FORM;
-import static com.spiv.fwa.suite.infmt.InfmtSelectors.*;
 import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElementLocated;
 
 import java.time.Duration;
@@ -26,7 +21,7 @@ import java.util.List;
 import java.util.function.Function;
 import java.util.regex.Pattern;
 
-public class InfmtScript {
+public class TestngScript {
 
     private final WebDriver driver;
     private final WebDriverWait wait;
